@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0073e6;
+    color: white;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+/* Navigation */
+.site-navigation {
+    background-color: #005bb5;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu-item {
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main content */
+.content-wrapper {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+.education-table {
+    width: 100%;
+}
+
+.education-table, .education-table th, .education-table td {
+    border: 1px solid #ddd;
+}
+
+.education-table th, .education-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Video */
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    background: #005bb5;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .content-wrapper {
+        width: 95%;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+}
